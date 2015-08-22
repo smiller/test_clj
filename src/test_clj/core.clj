@@ -1,6 +1,5 @@
 (ns test-clj.core)
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(defn page-handler
+  [request]
+  {:body "Is there any tea on this spaceship?"})
